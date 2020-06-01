@@ -20,3 +20,21 @@ code {
 button {
   pointer-events: all;
 }
+
+#root,
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+input,
+button {
+  outline: 0;
+}
+
+.content {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
