@@ -39,11 +39,9 @@ header#main-header nav ul {
 header#main-header nav ul li {
   display: flex;
   align-items: center;
-
   font-size: 13px;
   color: #667580;
   font-weight: bold;
-
   margin-left: 30px;
 }
 
@@ -53,6 +51,9 @@ header#main-header nav ul li:first-child {
 
 header#main-header nav ul li svg {
   margin-right: 7px;
+}
+header#main-header svg {
+  color: cornflowerblue;
 }
 
 header#main-header div.side {
@@ -257,6 +258,7 @@ div .wrapper-content aside.profile .widget strong {
 
 div .wrapper-content aside.profile .widget strong svg {
   margin-right: 10px;
+  color: #53626c;
 }
 
 div .wrapper-content aside.profile .followers ul {
@@ -273,7 +275,7 @@ div .wrapper-content aside.profile .followers ul li {
   height: 50px;
   border-radius: 50%;
   background: #d0d5d9;
-  flex: 1 0 auto;
+  flex: 0 auto;
   margin: 0 5px 5px 0;
 }
 
@@ -282,6 +284,7 @@ div .wrapper-content aside.profile .images ul {
   display: flex;
   flex-wrap: wrap;
   margin-top: 10px;
+  align-items: center;
 }
 
 div .wrapper-content aside.profile .images ul li {
@@ -291,4 +294,270 @@ div .wrapper-content aside.profile .images ul li {
   background: #d0d5d9;
   flex: 1 0 auto;
   margin: 0 5px 5px 0;
+}
+
+div.wrapper-content .timeline {
+  flex: 1;
+  margin: 10px 10px 0;
+}
+
+div.wrapper-content .timeline nav {
+  border-bottom: 1px solid #e6ecf0;
+  padding: 10px 15px;
+  background-color: #fff;
+}
+
+div.wrapper-content .timeline nav a {
+  text-decoration: none;
+  color: cornflowerblue;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+div.wrapper-content .timeline nav a:first-child {
+  margin: 0;
+}
+
+div.wrapper-content .timeline nav a.active {
+  color: #1f2226;
+}
+
+div.wrapper-content .timeline ul.tweets {
+  list-style: none;
+
+  margin-top: 5px;
+}
+
+div.wrapper-content .timeline ul.tweets li {
+  border-bottom: 1px solid #e6ecf0;
+  background-color: #fff;
+  padding: 10px 15px;
+  display: flex;
+  margin-top: 5px;
+}
+
+div.wrapper-content .timeline ul.tweets li img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  flex: 1;
+}
+
+div.wrapper-content .timeline ul.tweets li .info {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+div.wrapper-content .timeline ul.tweets li .info strong {
+  font-size: 14px;
+  color: #1f2226;
+}
+
+div.wrapper-content .timeline ul.tweets li .info strong span {
+  font-weight: normal;
+  font-size: 13px;
+  color: cornflowerblue;
+}
+
+div.wrapper-content .timeline ul.tweets li .info p {
+  font-size: 14px;
+  color: #1f2226;
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+div.wrapper-content .timeline ul.tweets li .info .imgContent img {
+  padding: 10px;
+  border-radius: 3px;
+  width: auto;
+  height: 100%;
+  border-radius: 0;
+  flex: 0;
+}
+
+div.wrapper-content .timeline ul.tweets li .actions {
+  display: flex;
+  margin: 15px 0 15px;
+  flex-direction: row-reverse;
+}
+
+div.wrapper-content .timeline ul.tweets li .actions a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #667580;
+  font-weight: bold;
+  font-size: 12px;
+  margin-right: 10px;
+}
+div.wrapper-content .timeline ul.tweets li .actions a:first-child {
+  margin-left: 0;
+}
+
+div.wrapper-content .timeline ul.tweets li .actions a svg {
+  margin-right: 2px;
+}
+
+div.wrapper-content aside.widgets {
+  width: 290px;
+  margin-top: 10px;
+}
+
+div.wrapper-content aside.widgets .widget {
+  background: #fff;
+  padding: 15px;
+}
+
+div.wrapper-content aside.widgets .widget .title {
+  display: flex;
+  align-items: baseline;
+}
+
+div.wrapper-content aside.widgets .widget .title strong {
+  font-size: 18px;
+  color: #1f2226;
+}
+
+div.wrapper-content aside.widgets .widget .title a {
+  color: cornflowerblue;
+  font-size: 12px;
+  text-decoration: none;
+  position: relative;
+  padding-left: 10px;
+}
+
+div.wrapper-content aside.widgets .widget .title a::before {
+  content: "";
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+  background: #000;
+  position: absolute;
+  left: 0;
+  top: 6px;
+}
+
+div.wrapper-content aside.widgets .follow ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+div.wrapper-content aside.widgets .follow ul li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccd6dd;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+div.wrapper-content aside.widgets .follow ul li svg {
+  color: #53626c;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile {
+  display: flex;
+  align-items: center;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info strong {
+  font-size: 14px;
+  color: #1f2226;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info strong span {
+  font-size: normal;
+  color: #9a9a9a;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info button {
+  height: 27px;
+  background: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 90px;
+  font-weight: bold;
+  font-size: 14px;
+  color: cornflowerblue;
+  border: 1px solid cornflowerblue;
+  border-radius: 16px;
+  margin-top: 4px;
+}
+
+div.wrapper-content aside.widgets .follow .findFriends {
+  flex-direction: row;
+  align-items: center;
+}
+
+div.wrapper-content aside.widgets .follow .findFriends a {
+  color: cornflowerblue;
+  text-decoration: none;
+}
+
+div.wrapper-content aside.widgets .follow .findFriends svg {
+  margin-right: 5px;
+}
+
+div.wrapper-content aside.widgets .widgetTrends {
+  background: #fff;
+  margin-top: 10px;
+  padding: 15px;
+}
+
+div.wrapper-content aside.widgets .widgetTrends .title {
+  display: flex;
+  align-items: baseline;
+  font-size: 18px;
+  color: #1f2226;
+}
+
+div.wrapper-content aside.widgets .widgetTrends a {
+  color: cornflowerblue;
+  font-size: 12px;
+  text-decoration: none;
+  position: relative;
+  padding-left: 10px;
+}
+
+div.wrapper-content aside.widgets .widgetTrends a::before {
+  content: "";
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+  background: #000;
+  position: absolute;
+  left: 0;
+  top: 6px;
+}
+
+div.wrapper-content aside.widgets .widgetTrends ul {
+  margin-top: 10px;
+  list-style: none;
+  font-size: 16px;
+}
+
+div.wrapper-content aside.widgets .widgetTrends ul li {
+  margin-top: 4px;
+  color: cornflowerblue;
+  font-size: 14px;
 }
