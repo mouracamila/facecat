@@ -3,7 +3,7 @@
 ![github-explorer](https://raw.githubusercontent.com/mouracamila/faceCat/master/assets/faceCat.gif)
 
 <h1 align="center">
-GitHub Explorer
+faceCat
 </h1>
 
 ### to continue...
