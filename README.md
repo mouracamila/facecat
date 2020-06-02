@@ -1,5 +1,3 @@
-# FaceCat(Work in progress)
-
 ![github-explorer](https://raw.githubusercontent.com/mouracamila/faceCat/master/assets/faceCat.gif)
 
 <h1 align="center">
@@ -11,15 +9,15 @@ faceCat
 This project was based in the FlexBox course, where was developed the basic structure Twitter with Html and Css. In order to transform it into a scalable application, did add the React Application.
 
 - [x] Dasboard HTML
-- [x] FLex-Box
+- [x] FLexBox
 - [] Responsive layout
 - [x] Dasboard CSS
 - [x] React App
 - [] React Dom
 - [x] Componentized
-- [x] styled-component
+- [x] [Styled component](https://styled-components.com/)
 - [] API integration
-- [x] React-icons/Fi
+- [x] React-icons/fi
 
 ## Installation
 
@@ -45,7 +43,7 @@ This project was based in the FlexBox course, where was developed the basic stru
 
     Local:http://localhost:3001
 
-Done!
+Done! 🐈
 
 ## License
 
