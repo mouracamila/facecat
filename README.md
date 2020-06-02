@@ -41,7 +41,7 @@ This project was based in the FlexBox course, where was developed the basic stru
 
     You can now view responsividade in the browser.
 
-    Local:http://localhost:3001
+    Local:http://localhost:3000
 
 Done! 🐈
 
