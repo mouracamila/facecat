@@ -10,13 +10,13 @@ This project was based in the FlexBox course, where was developed the basic stru
 
 - [x] Dasboard HTML
 - [x] FLexBox
-- [] Responsive layout
+- [ ] Responsive layout
 - [x] Dasboard CSS
 - [x] React App
-- [] React Dom
+- [ ] React Dom
 - [x] Componentized
 - [x] [Styled component](https://styled-components.com/)
-- [] API integration
+- [ ] API integration
 - [x] React-icons/fi
 
 ## Installation
