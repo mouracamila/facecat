@@ -6,24 +6,23 @@ faceCat
 
 ## Introduction
 
-This project was based in the FlexBox course, where was developed the basic structure Twitter with Html and Css. In order to transform it into a scalable application, did add the React Application.
+This project was based in the FlexBox course, where was developed the basic Twitter structure with HTML and CSS. In order to transform it into a scalable application, I did convert it in to a React Application.
 
 - [x] Dasboard HTML
-- [x] FLexBox
-- [ ] Responsive layout
+- [x] FlexBox
+- [ ] Responsive Layout
 - [x] Dasboard CSS
 - [x] React App
-- [ ] React Dom
 - [x] Componentized
-- [x] [Styled component](https://styled-components.com/)
+- [x] [Styled Component](https://styled-components.com/)
 - [ ] API integration
-- [x] React-icons/fi
+- [x] react-icons/fi
 
 ## Installation
 
 1. Clone this Repository:
 
-   `$ git@github.com:mouracamila/faceCat.git`
+   `$ git clone git@github.com:mouracamila/faceCat.git`
 
 2. Installing dependencies:
 
