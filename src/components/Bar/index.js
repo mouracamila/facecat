@@ -24,7 +24,7 @@ function Bar() {
             <strong>80</strong>
           </li>
         </Counter>
-        <div class="actions">
+        <div className="actions">
           <button>Prrru</button>
           <FiMoreVertical />
         </div>
