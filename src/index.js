@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
+import "./global.css";
 import Index from "./pages/Dashboard/index.js";
 
 ReactDOM.render(
