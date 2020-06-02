@@ -22,7 +22,7 @@ This project was based in the FlexBox course, where was developed the basic Twit
 
 1. Clone this Repository:
 
-   `$ git clone git@github.com:mouracamila/faceCat.git`
+   `$ git clone git@github.com:mouracamila/facecat.git`
 
 2. Installing dependencies:
 
