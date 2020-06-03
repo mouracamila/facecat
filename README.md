@@ -18,11 +18,11 @@ This project was based in the FlexBox course, where was developed the basic Twit
 - [ ] API integration
 - [x] react-icons/fi
 
-## Installation
+## How to use
 
 1. Clone this Repository:
 
-   `$ git clone git@github.com:mouracamila/facecat.git`
+   `$ git clone git@github.com:mouracamila/faceCat.git`
 
 2. Installing dependencies:
 
