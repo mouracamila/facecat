@@ -1,4 +1,4 @@
-![github-explorer](https://raw.githubusercontent.com/mouracamila/faceCat/master/assets/faceCat.gif)
+![face-cat](https://raw.githubusercontent.com/mouracamila/faceCat/master/assets/faceCat.gif)
 
 <h1 align="center">
 faceCat
